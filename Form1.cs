@@ -23,12 +23,12 @@ namespace BackpropagationActivity
 
         private void button1_Click(object sender, EventArgs e)
         { 
-            nn = new NeuralNet(4, 100, 1);
+            nn = new NeuralNet(4, 80, 1);
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            for(int i = 0; i < 1000; i++)
+            for(int i = 0; i < 200; i++)
             {
                 nn.setInputs(0, 0.0);
                 nn.setInputs(1, 0.0);
